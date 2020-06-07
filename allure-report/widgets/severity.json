@@ -1,0 +1,21 @@
+[ {
+  "uid" : "996fbec6f73f31e6",
+  "name" : "addition test",
+  "time" : {
+    "start" : 1591549153940,
+    "stop" : 1591549160215,
+    "duration" : 6275
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e73143e2a18bfa8",
+  "name" : "subtraction test",
+  "time" : {
+    "start" : 1591549160216,
+    "stop" : 1591549165771,
+    "duration" : 5555
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

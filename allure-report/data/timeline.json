@@ -1,0 +1,29 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "addition test",
+    "uid" : "996fbec6f73f31e6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1591549153940,
+      "stop" : 1591549160215,
+      "duration" : 6275
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "subtraction test",
+    "uid" : "5e73143e2a18bfa8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1591549160216,
+      "stop" : 1591549165771,
+      "duration" : 5555
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  } ]
+}

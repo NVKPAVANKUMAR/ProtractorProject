@@ -1,0 +1,56 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1591549153939' stop='1591549165772'>
+    <name>demo calculator tests</name>
+    <title>demo calculator tests</title>
+    <test-cases>
+        <test-case start='1591549153939' status='undefined'>
+            <name>addition test</name>
+            <title>addition test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1591549153940' status='passed' stop='1591549160215'>
+            <name>addition test</name>
+            <title>addition test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5cee0793-1826-4468-854f-7735c7a3a5d2-attachment.png' type='image/png' size='25143'/>
+            </attachments>
+        </test-case>
+        <test-case start='1591549160216' status='undefined'>
+            <name>subtraction test</name>
+            <title>subtraction test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1591549160216' status='failed' stop='1591549165771'>
+            <name>subtraction test</name>
+            <title>subtraction test</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ab9b59ef-acd1-4d46-a5b0-60ef84fb6724-attachment.png' type='image/png' size='25020'/>
+            </attachments>
+            <failure>
+                <message>Expected '1' to equal '7'.</message>
+                <stack-trace>Error: Failed expectation
+                    at homepage.verifyResult (C:\Users\npavankumar\ProtractorDemoSDET\pages\homepage.js:25:34)
+                    at UserContext.&lt;anonymous> (C:\Users\npavankumar\ProtractorDemoSDET\tests\calculator.js:33:18)
+                    at C:\Users\npavankumar\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\npavankumar\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\npavankumar\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\npavankumar\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\npavankumar\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\npavankumar\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\npavankumar\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

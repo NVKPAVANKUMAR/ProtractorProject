@@ -1,0 +1,128 @@
+{
+  "uid" : "5e73143e2a18bfa8",
+  "name" : "subtraction test",
+  "fullName" : "demo calculator tests.subtraction test",
+  "historyId" : "847bff4332ffab94cf5d86233ebb6b86",
+  "time" : {
+    "start" : 1591549160216,
+    "stop" : 1591549165771,
+    "duration" : 5555
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expected '1' to equal '7'.",
+  "statusTrace" : "Error: Failed expectation\n                    at homepage.verifyResult (C:\\Users\\npavankumar\\ProtractorDemoSDET\\pages\\homepage.js:25:34)\n                    at UserContext.<anonymous> (C:\\Users\\npavankumar\\ProtractorDemoSDET\\tests\\calculator.js:33:18)\n                    at C:\\Users\\npavankumar\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n                    at new ManagedPromise (C:\\Users\\npavankumar\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n                    at ControlFlow.promise (C:\\Users\\npavankumar\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n                    at schedulerExecute (C:\\Users\\npavankumar\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n                    at TaskQueue.execute_ (C:\\Users\\npavankumar\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n                    at TaskQueue.executeNext_ (C:\\Users\\npavankumar\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n                    at C:\\Users\\npavankumar\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expected '1' to equal '7'.",
+    "statusTrace" : "Error: Failed expectation\n                    at homepage.verifyResult (C:\\Users\\npavankumar\\ProtractorDemoSDET\\pages\\homepage.js:25:34)\n                    at UserContext.<anonymous> (C:\\Users\\npavankumar\\ProtractorDemoSDET\\tests\\calculator.js:33:18)\n                    at C:\\Users\\npavankumar\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:112:25\n                    at new ManagedPromise (C:\\Users\\npavankumar\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n                    at ControlFlow.promise (C:\\Users\\npavankumar\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n                    at schedulerExecute (C:\\Users\\npavankumar\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\jasminewd2\\index.js:95:18)\n                    at TaskQueue.execute_ (C:\\Users\\npavankumar\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n                    at TaskQueue.executeNext_ (C:\\Users\\npavankumar\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n                    at C:\\Users\\npavankumar\\AppData\\Roaming\\npm\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "65120600f770d54b",
+      "name" : "Screenshot",
+      "source" : "65120600f770d54b.png",
+      "type" : "image/png",
+      "size" : 25020
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "demo calculator tests"
+  }, {
+    "name" : "testClass",
+    "value" : "demo calculator tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "subtraction test"
+  }, {
+    "name" : "package",
+    "value" : "demo calculator tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "39b065fbbdb5a331",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1591549160216,
+        "stop" : 0,
+        "duration" : -1591549160216
+      }
+    }, {
+      "uid" : "8305671d9c936dc5",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1591549121419,
+        "stop" : 0,
+        "duration" : -1591549121419
+      }
+    }, {
+      "uid" : "a6d18fae713139ef",
+      "status" : "failed",
+      "statusDetails" : "Expected '0' to equal '7'.",
+      "time" : {
+        "start" : 1591549121419,
+        "stop" : 1591549125293,
+        "duration" : 3874
+      }
+    }, {
+      "uid" : "b87276ecc357dc5a",
+      "status" : "failed",
+      "statusDetails" : "Failed: homepage.clickGo1 is not a function",
+      "time" : {
+        "start" : 1591548833344,
+        "stop" : 1591548833802,
+        "duration" : 458
+      }
+    }, {
+      "uid" : "59429d3a235ff758",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1591548833344,
+        "stop" : 0,
+        "duration" : -1591548833344
+      }
+    }, {
+      "uid" : "99ecd289b9e82935",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1591548253969,
+        "stop" : 0,
+        "duration" : -1591548253969
+      }
+    }, {
+      "uid" : "48a827d4ea5a8141",
+      "status" : "failed",
+      "statusDetails" : "Failed: homepage.clickGo1 is not a function",
+      "time" : {
+        "start" : 1591548253969,
+        "stop" : 1591548254262,
+        "duration" : 293
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5e73143e2a18bfa8.json",
+  "parameterValues" : [ ]
+}

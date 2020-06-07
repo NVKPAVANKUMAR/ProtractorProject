@@ -1,0 +1,117 @@
+{
+  "uid" : "996fbec6f73f31e6",
+  "name" : "addition test",
+  "fullName" : "demo calculator tests.addition test",
+  "historyId" : "c43282cda311837b57905258eb98c7d3",
+  "time" : {
+    "start" : 1591549153940,
+    "stop" : 1591549160215,
+    "duration" : 6275
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6349b40b44db7d8e",
+      "name" : "Screenshot",
+      "source" : "6349b40b44db7d8e.png",
+      "type" : "image/png",
+      "size" : 25143
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "demo calculator tests"
+  }, {
+    "name" : "testClass",
+    "value" : "demo calculator tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "addition test"
+  }, {
+    "name" : "package",
+    "value" : "demo calculator tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f7fb937c8d5d7fbb",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1591549153939,
+        "stop" : 0,
+        "duration" : -1591549153939
+      }
+    }, {
+      "uid" : "2dfab88e09f9a9c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591549115151,
+        "stop" : 1591549121419,
+        "duration" : 6268
+      }
+    }, {
+      "uid" : "7d67964ffe21fd3e",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1591549115151,
+        "stop" : 0,
+        "duration" : -1591549115151
+      }
+    }, {
+      "uid" : "6504cd587def6619",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591548825908,
+        "stop" : 1591548833343,
+        "duration" : 7435
+      }
+    }, {
+      "uid" : "c9f316a5486a6899",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1591548825907,
+        "stop" : 0,
+        "duration" : -1591548825907
+      }
+    }, {
+      "uid" : "2b8c2ab01ff9d11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591548247704,
+        "stop" : 1591548253969,
+        "duration" : 6265
+      }
+    }, {
+      "uid" : "b7eb1a87d7bdd903",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1591548247704,
+        "stop" : 0,
+        "duration" : -1591548247704
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "996fbec6f73f31e6.json",
+  "parameterValues" : [ ]
+}
