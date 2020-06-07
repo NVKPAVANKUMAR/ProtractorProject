@@ -1,4 +1,5 @@
 // An example configuration file.
+var AllureReporter = require('jasmine-allure-reporter');
 
 exports.config = {
   directConnect: true,
@@ -22,11 +23,9 @@ exports.config = {
 
 
   onPrepare: function () {
-    var AllureReporter = require('jasmine-allure-reporter');
     jasmine.getEnv().addReporter(new AllureReporter({
       resultsDir: 'allure-results'
     }));
-    var AllureReporter = require('jasmine-allure-reporter');
     jasmine.getEnv().addReporter(new AllureReporter());
     jasmine.getEnv().afterEach(function (done) {
       browser.takeScreenshot().then(function (png) {
